@@ -1,0 +1,50 @@
+:root {
+  --primary: #349705;
+  --dark: #000000;
+  --ternary: #7d7b7b;
+  --light: #ffffff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.btn {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  transform: translate3d(-2px, 3px, 3px);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--light);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
